@@ -60,3 +60,53 @@ body{
 .hero nav a:hover{
   background-color: rgba(0,0,0, .5);
 }
+
+main{
+  width: 80%;
+  min-width: 600px;
+  max-width: 860px;
+  margin: auto;
+}
+
+article{
+  background-color: #fff;
+  padding: 16px;
+  margin: 0 0 32px 0;
+}
+
+section{
+  padding: 16px 0 0 0;
+  margin: 0 0 32px 0;
+}
+
+article h2{
+  border-bottom: 2px solid #ccc;
+  background-color: #eee;
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+}
+
+.btn {
+  background-color: #cdc7c3;
+  display: block;
+  padding: 12px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  margin: 0 0 0 355px;
+  width: fit-content;
+  color: #000;
+}
+
+.btn:hover{
+  background-color: rgba(0,0,0, .3);
+}
+
+.rodapé{
+  text-align: center;
+  background-color: #6b6c68;
+  color: #fff;
+  padding: 30px;
+  text-shadow: 2px 2px 2px black;
+  letter-spacing: 2px;
+}
